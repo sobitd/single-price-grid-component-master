@@ -1,0 +1,115 @@
+body{
+	background-color: hsl(204, 43%, 93%); 
+	font-family: 'Karla', sans-serif;
+	font-weight: 400,700;
+	width: 1440px 375px;
+}
+
+h4{
+	color: white;
+	font-size: 1.2rem;
+}
+
+p{
+	color: white;
+}
+
+
+/* Grid Component*/
+
+.grid-container{
+	display: grid;
+	width: 50%;
+	height: 490px;
+	margin: 25% auto;
+	grid-template-rows: 44% 56%;
+	grid-template-columns: 50% 50%;
+
+
+}
+
+ /*@media Screen and (min-width: 21.25em){
+	.box{
+		grid-template-columns: 100%;
+	}
+}
+
+}*/
+	
+/* Join Our Community Section */
+
+.one{
+	grid-row: 1;
+	grid-column:span 2;
+	padding: 35px;
+	background-color: white;
+	border-radius: 10px 10px 0 0;
+}
+
+.join{
+	color: hsl(179, 62%, 46%);
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+h3{
+	color: hsl(71, 73%, 54%);
+	font-size: 1.5rem;
+	line-height: 1.7;
+}
+
+.join-paragraph{
+	color:hsl(204, 43%, 80%);
+}
+	
+/* Monthly Subscription */
+
+.two{
+	grid-row: 2;
+	grid-column: 1;
+	padding: 30px;
+	background-color:hsl(179, 62%, 43%);
+	border-radius: 0 0 0 10px;
+	box-sizing: border-box;
+}
+
+.price-tag{
+	font-size: 2.5rem;
+	padding-right: 10px;
+	vertical-align: middle;
+
+}
+
+.month{
+	font-weight: lighter;
+}
+
+ /* Why Us*/
+
+
+.three{
+	grid-row: 2;
+	grid-column: 2;
+	padding: 30px;
+	background-color:hsl(179, 62%, 46%);
+	border-radius: 0 0 10px 0;
+	box-sizing: border-box;
+	}
+
+/* Buttons*/
+
+.btn{
+	width: 98%;
+	padding: 10px;
+	margin-top: 15px;
+	background-color: hsl(71, 73%, 54%);
+	color: white;
+
+}
+
+@media only screen and (max-width: 375px) {
+	[class="box"]{
+		width: 100%;
+	}
+	
+}
